@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.futbolretro.simulador" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>Fútbol Retro</name>
+    <description>Simulador de fútbol 3D ligero (WebGL 1.0)</description>
+    <author email="dev@futbolretro.local">Fútbol Retro</author>
+    <content src="index.html" />
+    <access origin="*" launch-external="no" />
+    <allow-intent href="about:blank" />
+    <preference name="Orientation" value="landscape" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackgroundColor" value="0xff000000" />
+    <preference name="android-minSdkVersion" value="22" />
+    <platform name="android">
+        <preference name="android-hardwareAccelerated" value="true" />
+    </platform>
+</widget>
